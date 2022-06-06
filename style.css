@@ -1,0 +1,161 @@
+
+:root{
+    --cor1:#F2F2F0;
+    --cor2:#BF8C60;
+    --cor3:#A67051;
+    --cor4:#733E2E;
+    --cor5:#774332;
+    --cor6:#DE457D;
+    --cor7:#DDABC1 ;
+    --cor8:#EFEAD8 ;
+     }
+
+body {
+    margin: 0;
+    background-color:#F2F2F0 ;
+    }
+
+main {
+    width:100% ;
+    max-width: 900px;
+    margin: 0 auto;
+    }
+
+nav{
+    background-color:var(--cor8);
+    border-left-color: #BF8C60;
+    position: sticky;
+    top:0 ;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+   }
+nav > a:hover{
+       text-decoration:underline;
+       color:#DE457D;
+       font-weight: bold;
+   }
+.nav_link{
+      color:#633524;
+      text-decoration: none;
+  }
+
+h1{
+    text-align: center;
+    color:#AD864C ;
+}
+
+#origem-bolo {
+    display: flex;
+    flex-flow:row nowrap;
+    }
+.titulo-origem{
+    text-align: center;
+}
+
+.origem-bolo_imagem {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    }
+
+.titulo-h2 {
+    color: #633524;
+    text-align: center;
+}
+
+.origem-bolo_texto {
+    background-color: #EFEAD8;
+    color:#633524;
+    padding: 10px, 10px, 10px, 20px;
+    text-align:justify;
+    padding: 2%;
+    }
+
+.quote{
+    background-color:#DE457D;
+    color:#EFEAD8;
+    text-align: center;
+    padding:10px;
+    margin:20px;
+}
+
+#receita-bolo{
+
+    color: #633524;   
+}
+
+.receita-bolo-cont_image{
+    
+    width: 100%;
+    max-width: 300px;
+    max-height: 250px;
+    height: auto;
+}
+
+.titulo-bolos-relacionados{
+    text-align: center;
+}
+.bolos-relacionados{
+       
+    justify-content: space-between;
+    background-color:#DDABC1 ;
+    color: #633524;
+    margin-left:10px;
+    padding: 30px;
+    width: 30%;
+    right: 15%;
+    text-align: justify;
+    
+ }
+
+#contato-titulo{
+    
+    color: #633524;
+    text-align: center;
+   
+}
+
+#contatos-titulo{
+
+    display: flex;
+    flex-flow: column wrap;
+    color: #633524;
+    
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color:rgb(99, 53, 36) ;
+    color:#EFEAD8 ;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.footer-icons {
+    max-width: 40px;
+    height: auto;
+    }
+
+
+.footer{
+            
+    flex-flow:column wrap;
+    text-align: center;
+}
+
+
+         
+       
+
+    
+
+
+
+
+
+
